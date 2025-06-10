@@ -53,7 +53,7 @@ This will generate `cochrane-crawler-1.0-SNAPSHOT.jar` inside the `target/` dire
 3. **Run the Scraper**
 
 ```bash
-java -jar target/cochrane-crawler-1.0-SNAPSHOT.jar
+mvn exec:java -Dexec.mainClass="com.vantage.App"
 ```
 
 4. **Output**
@@ -72,3 +72,4 @@ mvn test
 
 **Emad Hassan**  
 [GitHub Profile](https://github.com/emad-8869)
+"""
